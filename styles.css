@@ -1,0 +1,48 @@
+*{
+    font-family: cursive;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 17px;
+    margin-right: 20vh;
+
+}
+.logo{
+    margin-top:18px;
+    margin-left: 5vw;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+
+}
+.navigation li{
+    margin-right: 15px;
+    
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+
+}
+.joinRequest{
+    background:linear-gradient(to right, #31cf6b, #2cbac7);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    max-height: 30px;
+    padding-top: 7px;
+
+
+}
+.joinRequest a{
+text-decoration: none;
+color: #f1f1f1;
+}
+.joinRequest:hover{
+    border-style: outset;
+}
