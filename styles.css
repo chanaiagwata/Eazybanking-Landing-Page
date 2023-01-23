@@ -1,18 +1,20 @@
 *{
     font-family: cursive;
+    line-height: 1.5;
 }
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 10px;
     font-size: 17px;
-    margin-right: 20vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
 
 }
 .logo{
     margin-top:18px;
-    margin-left: 5vw;
 }
 .navigation{
     display: flex;
@@ -27,15 +29,15 @@ header{
     text-decoration: none;
     color: black;
 
+
 }
 .joinRequest{
     background:linear-gradient(to right, #31cf6b, #2cbac7);
     border-radius: 10px;
     margin-top: 10px;
-    padding-left:10px;
-    padding-right:10px;
+    max-width: fit-content;
+    padding: 5px 10px 5px 10px ;
     max-height: 30px;
-    padding-top: 7px;
 
 
 }
@@ -46,3 +48,37 @@ color: #f1f1f1;
 .joinRequest:hover{
     border-style: outset;
 }
+.register{
+    background:linear-gradient(to right, #31cf6b, #2cbac7);
+    border-radius: 15px;
+
+    padding: 7px;
+    max-width: fit-content;
+}
+.register a{
+    text-decoration: none;
+    color:#f1f1f1;
+}
+.banner{
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    max-height: 350px;
+}
+.svgBackground{
+    
+}
+/* .svgBackground{
+    position: absolute;
+    z-index: -1;
+    max-height: 500px;
+    border: 2px solid blue;
+    top: 70px;
+}
+.mobiles{
+    margin-right: 5vw;
+    border: 2px solid black;
+    
+} */
