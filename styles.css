@@ -1,6 +1,5 @@
 *{
     font-family: cursive;
-    line-height: 1.5;
 }
 header{
     display: flex;
@@ -64,21 +63,24 @@ color: #f1f1f1;
     margin-left: 5vw;
     margin-right: 5vw;
     flex-wrap: wrap;
-    border: 2px solid red;
     max-height: 350px;
+    margin-top: 20px;
 }
-.svgBackground{
-    
-}
-/* .svgBackground{
+.svgBackground svg {
+    position: relative;
+    width: 30vw;
+    clip-path: inset(25% 0 0 0);
+    left:70%;
+    transform: translateY(-450px);
+  }
+  
+  .svgBackground img {
     position: absolute;
-    z-index: -1;
-    max-height: 500px;
-    border: 2px solid blue;
-    top: 70px;
-}
-.mobiles{
-    margin-right: 5vw;
-    border: 2px solid black;
-    
-} */
+    z-index: 1;
+    clip-path: inset(12% 0 0 0);
+    left:68%;
+    transform: translateY(-300px);
+  }
+  .question{
+    margin-left: 5vw;
+  }
