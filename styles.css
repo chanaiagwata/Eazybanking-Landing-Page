@@ -1,7 +1,6 @@
 *{
     font-family: cursive;
 
-
 }
 header{
     display: flex;
@@ -63,10 +62,11 @@ color: #f1f1f1;
 .banner{
     display: flex;
     flex-wrap: wrap;
-    height: 40vh;
+    height: 45vh;
     margin-top: 20px;
     background: #fafafa;
     position: sticky;
+    /* max-width: 100%; */
     
 }
 .headline1{
@@ -75,8 +75,7 @@ color: #f1f1f1;
 .banner div p{
     color:grey;
 }
-.svgBackground{
-}
+
 .svgBackground svg {
     position: relative;
     /* width: 30vw; */
@@ -91,6 +90,8 @@ color: #f1f1f1;
     clip-path: inset(12% 0 0 0);
     left:60%;
     transform: translateY(-278px);
+    /* background-size: 100% 100%; */
+
   }
   .question{
     margin-top: 300px;
@@ -102,8 +103,12 @@ color: #f1f1f1;
 .headline{
     margin-left: 5vw;
 }
+.headline1{
+    line-height: 20px;
+}
 .headline1 h1{
     color:#2f324b;
+    line-height: 30px;
 }
 .headline p{
     color: grey;
@@ -141,14 +146,17 @@ margin-top: 60px;
     /* display: inline-block; */
     color:#2f324b;
     font-size: 30px;
-    margin-left: 5vw;
     /* transform: scale(.8, 2);  */
+}
+.readArticles{
+    padding: 50px;
+    background-color: #fafafa;
 }
 .articles{
     display: flex;
     justify-content: space-between;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    /* margin-left: 5vw;
+    margin-right: 5vw; */
 
 }
 .card{
@@ -163,4 +171,19 @@ margin-top: 60px;
     color:#2f324b;
     padding: 0px 15px 0px 15px;
 
+}
+.flex-container{
+    background-color: #2d314e;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+.flex-Item1 svg{
+    margin-bottom: 30px;
+
+}
+.flex-Item4 p{
+    color:grey;
 }
