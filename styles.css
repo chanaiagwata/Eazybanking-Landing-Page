@@ -26,7 +26,7 @@ header{
 }
 .navigation a{
     text-decoration: none;
-    color: black;
+    color: grey;
 
 
 }
@@ -60,11 +60,17 @@ color: #f1f1f1;
 }
 .banner{
     display: flex;
-    margin-left: 5vw;
-    margin-right: 5vw;
     flex-wrap: wrap;
-    max-height: 350px;
+    height: 350px;
     margin-top: 20px;
+    background-color: #fafafa;
+    
+}
+.headline1{
+    margin-left: 5vw;
+}
+.banner div p{
+    color:grey;
 }
 .svgBackground svg {
     position: relative;
@@ -82,5 +88,33 @@ color: #f1f1f1;
     transform: translateY(-300px);
   }
   .question{
-    margin-left: 5vw;
+    margin-top: 100px;
+    background-color: #f4f5f7;
+    padding-top: 50px;
+    overflow: auto;
+    
   }
+.headline{
+    margin-left: 5vw;
+}
+.headline p{
+    color: grey;
+}
+.products{
+display: flex;
+/* flex-direction: row; */
+justify-content: space-between;
+/* flex-wrap: wrap; */
+height: 30vh;
+margin-left: 5vw;
+
+  }
+.products div{
+/* max-width: 300px; */
+margin-top: 60px;
+}
+
+.products div p{
+    padding-right: 150px;
+    color: grey;
+}
